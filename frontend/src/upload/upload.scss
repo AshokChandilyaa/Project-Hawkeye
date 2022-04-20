@@ -1,0 +1,61 @@
+@import '../common/common.scss';
+
+.upload-popup {
+
+    min-height: 100px;
+    min-width: 300px;
+    background: white;
+
+    & > * {
+        margin-bottom: 5px;
+    }
+
+    .files-header {
+        
+    }
+
+    .files-container {
+
+        border: 1px solid $color-borders;
+        border-radius: 3px;
+        padding: 4px;
+        max-height: 250px;
+
+        overflow-y: auto;
+
+        .file-row {
+            margin-bottom: 2px;
+            padding: 2px 8px;
+
+            & + .file-row {
+                border-top: 1px solid lighten($color-borders, 20%);
+            }
+        }
+
+    }
+
+    .checkbox-container {
+
+        margin: 5px auto;
+
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+
+        button {
+            margin: 10px;
+            padding: 4px 9px;
+        }
+    }
+
+    .files-container {
+        flex: 1 1 auto;
+    }
+
+}
+
+
+

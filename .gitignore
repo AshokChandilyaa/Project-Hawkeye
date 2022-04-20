@@ -1,0 +1,52 @@
+.DS_Store
+.tool-versions
+.vscode
+# dependencies
+frontend/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+package-lock.json
+
+
+
+
+*.zip
+data/images/*/*.json
+backend/data/train/*.txt
+backend/data/*/*.jpg
+backend/data/*/*.png
+lightning_logs
+*.pth
+.vscode
+__pycache__
+*.pyc
+*.*pt
+*.ini
+data/*ocr_data.csv
+data/*predictions_01.csv
+data/checkpoints/**/*.txt
+data/checkpoints/**/*.csv
+data/checkpoints/**/*.pkl
+data/Nebula.db
+backend/data/databases/data.json
+src/subkey.py
+*.pdf
+backend/data/safety/*.json

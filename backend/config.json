@@ -1,0 +1,16 @@
+{
+    "default": {
+        "FLASK_APP": "server.py",
+        "FLASK_ENV": "development",
+        "DEBUG": true,
+        "SECRET_KEY": "+Fus{=8MSV99y2ahF:@gcjtB_&J7f?}g",
+        "TESTING": false,
+        "REPOSITORY": "json",
+        "DEFECT_MODELS": [
+            "defect_model_1"
+        ],
+        "IMAGE_PATH": "data/images",
+        "DATABASE_PATH": "data/databases",
+        "MODEL_PATH": "data/models"
+    }
+}
